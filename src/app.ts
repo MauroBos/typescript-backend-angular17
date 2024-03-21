@@ -1,7 +1,7 @@
 import express from 'express';
-import routesProduct from '../routes/product';
-import routesUser from '../routes/user';
-import { conectarDB } from '../db/database';
+import routesProduct from './routes/product';
+import routesUser from './routes/user';
+import { conectarDB } from './db/database';
 import cors from 'cors';
 
 class Server{
